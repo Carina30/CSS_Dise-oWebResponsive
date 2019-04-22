@@ -1,0 +1,231 @@
+body{
+  background-color: #02010a;
+   font-family: "Dancing Script";
+
+}
+
+header{
+  animation: slidein 5s;
+}
+
+@keyframes slidein {
+  0%{
+      margin-top: 150%;
+  }
+
+  60%{
+    margin-top: -5%;
+  }
+
+  100%{
+    margin-top: 0%;
+  }
+}
+#contenido{
+  text-align: center;
+}
+/*Establece el fondo de color #5b7989.*/
+/* Aplica bordes redondeados en las esquinas superiores a 10px. */
+.cabecera{
+  background: #5b7989;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: 80px;
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+}
+
+/* Agrega el Nombre del sitio "Comenzando con la fotografía"
+ubicado al lado izquierdo, en blanco la letra
+debe tener una sombra de 2px de color #02010a.  */
+
+#titulo {
+float: left;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+}
+
+
+/* Desarrolla un menú, para la versión desktop,
+a la derecha con enlaceas a tres páginas:
+Inicio, Paisajes, paisajes.
+La página actual debe tener estilo sin subrayado. */
+nav li a{
+  text-shadow: 2px 2px #02010a;
+  color: white;
+  text-decoration:none;
+}
+
+
+
+li{
+  list-style: none;    /* elimina la viñeta */
+  display: inline-block;     /* muestra en una liena */
+  padding-right:5px;
+
+}
+
+#banner{
+  float: right;
+}
+
+/*{
+  background-color: #d5c75f;
+} */
+
+
+#secundaria img{
+  width: 80%;
+  padding: 15%;
+}
+
+
+
+.paisaje1{
+  -webkit-filter:blur(10px);
+  filter: blur(10px);
+}
+
+.paisaje2{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+
+}
+
+
+.paisaje3{
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+}
+
+.paisaje4{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.paisaje6{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+
+footer{
+  background: #C6d5c5;
+  border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+}
+
+.conte_pie {
+	margin: 0;
+  padding: 0;
+  width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.conte_pie div {
+  box-sizing: border-box;
+  text-align: center;
+  min-width: 25%;
+  text-align:left;
+  padding: 10px;
+}
+
+
+.paisa {
+	margin: 0;
+  padding: 0;
+  width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.paisa div {
+  margin-left: auto;
+  margin-right: auto;
+}
+#secundaria
+{
+  background-color: #d5c75f;
+}
+
+
+.bloque1 {
+	width: 33%;
+}
+.bloque2 {
+	width: 33%;
+}
+.bloque3 {
+	width: 33%;
+}
+
+
+
+@media all and (max-width: 500px) {
+
+
+  .bloque1{
+    width: 100%;
+  }
+
+  .bloque2{
+    width: 100%;
+  }
+
+  .bloque3{
+    width: 100%;
+  }
+
+
+  .contacto{
+    width: 100%;
+  }
+
+  .terminos{
+    width: 100%;
+  }
+
+  .redes_sociales{
+    width: 100%;
+  }
+
+  .derechos{
+    width: 100%;
+  }
+
+}
+
+@media all and (max-width: 800px) and (min-width: 500px) {
+
+  .bloque1{
+    width: 100%;
+  }
+
+  .bloque2{
+    width: 100%;
+  }
+
+  .bloque3{
+    width: 100%;
+  }
+
+
+  .contacto{
+    width: 100%;
+  }
+
+  .terminos{
+    width: 100%;
+  }
+
+  .redes_sociales{
+    width: 100%;
+  }
+
+  .derechos{
+    width: 100%;
+  }
+}
